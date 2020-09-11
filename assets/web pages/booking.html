@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My HTML Page</title>
+  <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="../css/booking.css">
+</head>
+
+      <body>
+            <div class="body-nbsjo">
+
+<nav class='nav'>
+
+<a class='nav-item nav-brand' href='#'><img src="../img/logo.png" class="Logo"/>Health Dynamics</a>
+<img src="https://relate.app/images/blank-image.svg" class="Logo"/>
+                  <button class='toggler'>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  </button>
+                  <div class='nav-collapse'>
+                  <a class='nav-item nav-link' href='home.html'>Home</a>
+                  <a class='nav-item nav-link' href='appointment.html'>Patient info</a>
+                  <a class='nav-item nav-link' href='booking.html'>Booking</a>
+                  </div>
+                  </nav>
+                </div>
+                  <br>
+
+    <title>Booking form</title>
+
+
+    <div id="container">
+                                                                <!--This is a division tag for body container-->
+                                                                <div id="body_header">
+                                                                  <!--This is a division tag for body header-->
+                                                                  <h1>Booking request</h1>
+
+
+
+                                                                <form action="index.html" method="post">
+                                                                  <fieldset>
+                                                                    <legend><span class="number">1</span>Basic details</legend>
+                                                                    <label for="name">Name:</label>
+                                                                    <input type="text" id="name" name="user_name" placeholder="First name" required pattern="[a-zA-Z0-9]+">
+
+                                                                    <label for="mail">Email:</label>
+                                                                    <input type="email" id="mail" name="user_email" placeholder="@____.com" required>
+
+                                                                    <label for="tel">Contact Num:</label>
+                                                                    <input type="tel" id="tel" placeholder="+27" name="user_num">
+
+                                                                  </fieldset>
+
+
+                                                                  <fieldset>
+                                                                    <legend><span class="number">2</span>Appointment Details</legend>
+
+
+
+                                                                    <label for="appointment_description">Appointment Description:</label>
+                                                                    <textarea id="appointment_description" name="appointment_description" placeholder=""></textarea>
+                                                                    <label for="date">Date:</label>
+                                                                    <input type="date" name="date" value="" required></input>
+                                                                    <br>
+                                                                    <label for="time">Time:</label>
+                                                                    <input type="time" name="time" value="" required></input>
+                                                                    <br>
+
+                                                                  </fieldset>
+                                                                  <button type="submit">Request</button>
+                                                                </form>
+                                                              </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+
+                        <div class="Section2">
+
+
+                    <div class="footer">
+                      <p>2020 Health Dynamics. All rights reserved. </p>
+                    </div>
+                  </div>
+
+</body>
+</html>
